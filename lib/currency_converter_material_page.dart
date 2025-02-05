@@ -1,11 +1,10 @@
-import 'dart:math';
-
-import 'package:flutter/foundation.dart';
+// import 'package:currency_converter/currency_converter_material_page.dart';
 import 'package:flutter/material.dart';
 //1.Create a variable thatt stores the converted currency value
 //2.Create a function that multiple the value given by the textfield with 81
 //3.Store the value in the variable tha we created
 //4.DISPLAY the variable
+
 class CurrencyConverterMaterialPage extends StatefulWidget{
   const  CurrencyConverterMaterialPage({super.key});
 
@@ -16,6 +15,7 @@ class CurrencyConverterMaterialPage extends StatefulWidget{
 @override
 class _CurrencyConverterMaterialPageState 
       extends State<CurrencyConverterMaterialPage>{
+  
   double result = 0;
   final TextEditingController textEditingController = TextEditingController();
   void convert(){
